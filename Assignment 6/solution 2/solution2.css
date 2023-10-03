@@ -1,0 +1,108 @@
+
+h1{   
+    width:100%;
+    background:orange;
+    text-align:center;
+    border:2px solid olive;
+    font-size:35px;
+    font-weight:bold;
+    text-shadow:3px 4px 4px red;
+    color:white;
+  }
+
+
+  h2{
+   background-color: rgb(136, 115, 34);
+   text-shadow:3px 4px 4px rgb(181, 24, 24);
+   font-size:35px;
+   text-align:center;
+   font-weight:bold;
+    color:white;
+    
+ }
+
+/*BEM Block*/
+.play{
+background-color: #0c4d62;
+text-align: center;
+font-weight: bold;
+margin: 30px;
+padding: 12px;
+font-size: 16px;
+font-family: cursive;
+border: 2px solid orchid;
+color:white;
+}
+
+
+
+/*BEM Element*/
+.play__cricket{
+background: linear-gradient(rgb(75, 200, 200),rgb(139, 213, 213),pink,lime,gold);
+margin: 10px;
+border-radius: 10px;
+padding: 12px;
+font-weight: 400;
+color: rgb(102, 15, 102);
+font-family: 'Times New Roman', Times, serif;
+}
+
+/*BEM Element*/
+.play__football{
+     background-color: antiquewhite;
+     margin: 10px;
+     padding: 12px;
+     border-radius: 5%;
+     border: 1px dashed salmon;
+     color: rgb(12, 167, 167);
+     text-shadow:1px 1px 1px rgb(231, 55, 55);
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*BEM Element*/
+.play__hockey{
+box-shadow: 30px 20px 30px 10px green inset;
+margin: 10px;
+border-radius: 5px;
+padding: 12px;
+}
+
+/*BEM Element*/
+.play__basketball{
+       background-color: thistle;
+       margin: 10px;
+       border-radius: 10%;
+       padding: 12px;
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/*BEM Element*/
+.play__badminton{
+background: linear-gradient(green,yellow,pink,gold);
+font-weight: 500;
+margin: 10px;
+padding: 12px;
+border-radius: 30%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*BEM Element*/
+.play__kabaddi{
+    background: linear-gradient(to right,rgba(255,0,0,0),rgba(255,0,0,1));
+    margin: 10px;
+    padding: 12px;
+    font-family:monospace;
+}
+
+/*BEM Modifier*/
+.play__cricket--popular{
+background-color: #2f3336;
+text-align: center;
+font-weight: bold;
+margin: 30px;
+padding: 12px;
+font-size: 16px;
+font-family: cursive;
+border: 2px solid red;
+color:white;
+}

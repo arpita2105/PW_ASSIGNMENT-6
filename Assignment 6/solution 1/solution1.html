@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Page</title>
+    <!--external css link-->
+    <link rel="stylesheet" href="solution1.css">
+
+    <style>
+        /* Internal CSS which has more priority than external css
+            but less priority than inline css*/
+         *{
+            background-color: bisque;
+            margin: 10px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            padding: 7px;
+         }
+
+         div{
+            border: 2px solid black;
+            border-radius: 20px;
+            color: rgb(223, 13, 13);
+         }
+
+         p{
+            color:blueviolet;
+           border: 2px dashed deepskyblue;
+         }
+
+
+    </style>
+
+</head>
+<body>
+        <!--Inline css is most specific i.e. has more priority than internal and external css-->
+     <h1 style="font-size: 40px; font-family: cursive;">Simple Page showing different ways to add CSS</h1>
+     <div style="display: inline-block;">
+        <p> <b>How to add CSS ? </b><br>
+        There are three ways to add CSS :-</p>
+        <ul>
+            <li>INLINE CSS</li>
+            <li>INTERNAL CSS</li>
+            <li>EXTERNAL CSS</li>
+        </ul>
+     </div>
+    
+     <div>
+         <p>
+           The following condition takes place when we target the same elements with inline, internal, and external CSS :-
+         </p> 
+          <ul>
+            <li>The Inline CSS will have the highest priority and will override the internal and external CSS. </li>
+            <li>The Internal CSS will have the second highest priority and will override the external CSS but not the inline CSS.</li>
+            <li>The External CSS will have the lowest priority and will be overridden by the inline and internal CSS.</li>
+          </ul>
+     </div>
+
+     <div>
+        <!--Inline css is most specific i.e. has more priority than internal and external css-->
+        <p style="border: 2px solid hotpink; border-radius: 5px;"><b>Priority Order</b></p>
+        <i style="color: rgb(6, 97, 177); font-size:40px;">Inline CSS > Internal CSS > External CSS</i>
+        <p>Most specific CSS rule will be applied. <br>
+        INLINE CSS is most specific. </p>
+     </div>
+
+</body>
+</html>

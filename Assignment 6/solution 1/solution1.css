@@ -1,0 +1,9 @@
+/* External css has less priority than Inline and Internal css */
+
+body{
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: darkmagenta;
+    background-color: rgb(114, 238, 197);
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form input elements</title>
+    <!--external css link-->
+    <link rel="stylesheet" href="solution3.css">
+</head>
+<body>
+    <center><h1>Sign Up Here</h1></center><br> <hr><br>
+    <form action="" method="post">
+     <fieldset>
+<legend>Information</legend><br>
+<div class="form_cover">
+<label for="firstname" > First Name :
+<input type="text" placeholder="Arpita" name="first name" id="firstname" required min="3" max="30" /></label><br><br>
+
+<label for="lastname" > Last Name :
+<input type="text" placeholder="Kumari" name="last name" id="lastname" required min="3" max="30" /></label><br><br>
+
+<label for="gender">Gender :
+<input type="radio" name="gnd" id="gender" value="Male"> Male
+<input type="radio" name="gnd" id="gender" value="Female"> Female  
+<input type="radio" name="gnd" id="gender" value="Other"> Others <br><br></label>
+
+<label for="email">E-mail :
+<input type="email" placeholder="abc@gmail.com" name="email" id="email" required /><br><br></label>
+
+<label for="contactnumber">Contact No. :
+<select id="select">
+    <option value="+91">+91</option>
+    <option value="+678">+678</option>
+    <option value="+87">+87</option>
+    <option value="+332">+332</option>
+    <option value="+446">+446</option>
+</select>
+<input type="number" placeholder="945*******" name="c_no" id="contactnumber" required maxlength="10" /><br><br></label>
+
+<label for="password">Password :
+<input type="password"  placeholder="********" name="password" id="password" required min="8" max="12" /><br><br></label>
+
+<label for="confirmpassword">Confirm Password :</label>
+<input type="password"  placeholder="********" name="confirmpassword" id="confirmpassword" required /><br><br>
+
+<label for="terms">
+<input type="checkbox" name="terms" id="terms" required /> I agree to terms and conditions</label><br><br>
+
+<button type="submit" id="submit">REGISTER NOW</button><br><br>
+<b>Already have an account? <a href="/Assignment 3/solution 5/solution5 (b).html">Sign In</a></b><br><br>
+</div>   
+         </fieldset>
+     </form>
+</body>
+</html>
